@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>imagenes y listas</h1>
+    <p>las imagenes se agregar utilizando la etiqueta <code> &#60;img&#62; </code> esta etiqueta es auto completada y tiene algunos atributos especiales  </p>
+    <img src="alt="opecausa">&#60;img&#62;
+    <!--EL ATRIBUTO ALT ES OBLIGATORIO Y SIRVE PARA QUE LOS BUSCADORES INDEXEN LAS IMAGENES Y LOS LECTORES DE PANTALLA PUEDAN DAR INFORMACION SOBRE EL CONTENIDO DE LAS MISMAS -->
+    <!--Hay otras formas de poner una imagen: utilizando una url como se muetran a continuacion-->
+    <img src="https://pbs.twimg.com/media/CFncQX_WgAAnKP2.jpg" alt="imagen de marley re duro">
+    <img src="https://pbs.twimg.com/profile_images/691844286376251392/IIKMfyM2_400x400.jpg" alt="">
+     <img src="https://es.hellokids.com/c_21542/dibujos-para-colorear/deportes/baloncesto/lebron-james" alt="">
+<!-- la etiqueta <ul> define el inicio de una lista no ordenada-->
+   <h1>cosas para llevar a parque norte</h1>
+   
+    <ul>
+
+
+
+<li>pelota futbol</li>     
+<li>pelota basquet</li>
+<li>carta de truco</li>
+    <!-- <li> definen un item de lista-->
+
+</ul>
+<h2>xdxdxd</h2>
+<ol>
+<!-- <lo> define el inicio de una lista odenada-->
+<li>argentina</li>
+<li>francia</li>
+<li>croacia</li>
+</ol>
+
+<!--vinculos-->
+<p>los vinculos o links son accesos a otras paginas o recursos en la web.  <br>
+   tienen un atributo propio que se llama href, que define la ubicacion a donde se dirije el vinculo <br>
+   la etiqueta <code> &#60; a&#62;</code> tiene apertura y cirre.el contenido es lo que ve en la pagina </p>
+<a href="">lo que se ve</a> <!--los vinculos o links se definen usando la etiqueta <a>-->
+<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwid98i3s9n-AhWLqZUCHYIBDewQwqsBegQICBAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcpLrWyAaC_U&usg=AOvVaw1K_lo4-juITKWQ77UAobUJ ">troleado puto</a>
+<!--los vinculos o links se definen usando la etiqueta <a>-->
+
+    <p>el atributo href puede adoptar tres formas distintas </p>
+    <ul>
+        <li><b>vinculos relativos</b> como las imagenes, tiene una ruta usando como referencia el lugar donde se encuentre el documento .html </li>
+        <li><b>vinculo absoluto</b> esto tambien es lo mismo que con las imagenes. podemos usar una url completa. 
+               siempre teniendo en cuenta no usar un link de busqueda sino la url concreta del recurso a vincular</li>
+        <li><b>vinculo ancla</b>los vinculos anclas se usan para referenciar a las distintas partes del mismo documento. para utilizarlo se debe usar el 
+        atrubuto globalisque se debe ser unico en el documento</li>    
+    </ul>
+   <p>por otro lado los vinculos titenen otro tributo llamado target</p>
+<a href="https://github.com/morochiro123/chirin/blob/main/imagenes%20listas.html target="_blank" rell="noopener noreferrer">veni xd</a>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRofFfu_mkdX1AcaQ3p0YYTMxzoZXJUbNoj1DGyCeRk6kmrfmtuUX8_jSfdaDdOxtIsfB8&usqp=CAU" width="1000px" alt="julyyyyy">
+
+
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8TmtEtABS1Z-4o-Qo3nZ3XdncewW4xUvheLbpFaBq1eoJ4VvSXbnsIOVJBRYvYXVgaeE&usqp=CAU" width="1000px" alt="falopa">
+</body>
+</html>
